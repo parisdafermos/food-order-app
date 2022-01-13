@@ -84,7 +84,7 @@ export default function Cart(props) {
   );
   const isSubmittingModalContent = <p> Sending order data...</p>;
 
-  const didSubmitModalContent = <p> Successfulyl sent the order!</p>;
+  const didSubmitModalContent = <p> Successfully sent the order!</p>;
   return (
     <Modal onClose={props.onClose}>
       {!isSubmitting && !didSubmit && cartModalContent}
